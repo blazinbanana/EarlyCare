@@ -1,5 +1,26 @@
 # Advanced Liver Disease Detection for Early Palliative Care
 
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://earlycare-gkszkb6h3xpfyo9jnqdbp3.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0.26-green?logo=scikit-learn)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-1.5-blue?logo=pandas)](https://pandas.pydata.org/)
+
+---
+
+## Highlights
+- **Interactive Streamlit Demo:** [Try it here](https://earlycare-gkszkb6h3xpfyo9jnqdbp3.streamlit.app/)
+- **Model Accuracy:** 99% on blood-test-based liver disease detection
+- **Technology Stack:** Python, Pandas, NumPy, Scikit-learn, Streamlit
+- **Target Audience:** Clinicians & healthcare providers looking for early palliative care assessment tools
+- **Dataset:** [Liver Patient Dataset (LPD) on Kaggle](https://www.kaggle.com/datasets/abhi8923shriv/liver-disease-patient-dataset?resource=download&select=Liver+Patient+Dataset+%28LPD%29_train.csv)
+- **Deployment:** Cloud-hosted Streamlit app for instant access
+
+---
+
+*(Rest of the README continues below with Overview, Methodology, Results, Installation, etc.)*
+
+
 ## Overview
 This project develops a machine learning model (Random Forest Classifier) to identify patients with advanced liver disease who would benefit from early palliative care interventions. The model analyzes routine blood test results to predict disease severity, addressing the critical gap in tools for timely palliative care referral.
 

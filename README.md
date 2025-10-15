@@ -65,12 +65,13 @@ max_features
 ## Results
 | Model | Accuracy | Precision | Recall | ROC-AUC |
 |-------|----------|-----------|--------|---------|
-| Final Model | [99]% | [99]% | [99]% | [99]% |
+| Final Model | 99% | 99% | 99% | 99% |
 
 **Key Insight:** The model successfully identifies [99]% of advanced liver disease cases, enabling earlier palliative care referrals.
 
 ## Live Demo
-[![Open in Streamlit](https://earlycare-gkszkb6h3xpfyo9jnqdbp3.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://earlycare-gkszkb6h3xpfyo9jnqdbp3.streamlit.app/)
+
 
 Try the interactive demo where you can input blood test values and get predictions.
 

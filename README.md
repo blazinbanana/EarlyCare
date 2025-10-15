@@ -70,7 +70,7 @@ max_features
 **Key Insight:** The model successfully identifies [99]% of advanced liver disease cases, enabling earlier palliative care referrals.
 
 ## Live Demo
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](your-streamlit-app-link)
+[![Open in Streamlit](https://earlycare-gkszkb6h3xpfyo9jnqdbp3.streamlit.app/)
 
 Try the interactive demo where you can input blood test values and get predictions.
 
@@ -86,7 +86,8 @@ You can also input a batch of patient's records (for clinicians) as long as the 
 
 ### Running the Notebook
 ```bash
-git clone https://github.com/yourusername/advanced-liver-disease-detection
+git clone https://github.com/blazinbanana/EarlyCare.git
 cd EarlyCare
 pip install -r requirements.txt
 jupyter notebook notebooks/Advanced liver sickness detector.ipynb
+

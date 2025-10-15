@@ -82,16 +82,17 @@ if mode == "Single Patient Input":
     if st.sidebar.button("Predict"):
         input_data = pd.DataFrame({
             "Age of the patient": [age],
-            "Gender of the patient": [gender],
+            "Gender of the patient": [gender],  # Pass as string, not 0/1
             "Total Bilirubin": [total_bilirubin],
             "Direct Bilirubin": [direct_bilirubin],
-            " Alkphos Alkaline Phosphotase": [alkaline_phosphatase],
-            " Sgpt Alamine Aminotransferase": [sgpt],
+            "Alkphos Alkaline Phosphotase": [alkaline_phosphatase],
+            "Sgpt Alamine Aminotransferase": [sgpt],
             "Sgot Aspartate Aminotransferase": [sgot],
             "Total Protiens": [total_protein],
-            " ALB Albumin": [albumin],
+            "ALB Albumin": [albumin],
             "A/G Ratio Albumin and Globulin Ratio": [ag_ratio]
         })
+
 
         prediction = model.predict(input_data)
         probability = model.predict_proba(input_data)

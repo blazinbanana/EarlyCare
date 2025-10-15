@@ -75,7 +75,7 @@ max_features
 
 Try the interactive demo where you can input blood test values and get predictions.
 
-You can also input a batch of patient's records (for clinicians) as long as the columns are ordered well. The predictions will be saved as a csv file, with 1 indicating high risk and 2 indicating low risk.
+You can also input a batch of patient's records (for clinicians) as long as the column names are ordered well (exact matches) . The predictions will be saved as a csv file, with 1 indicating high risk and 2 indicating low risk.
 
 ## Technologies Used
 - Python, Pandas, NumPy, Scikit-learn

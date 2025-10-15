@@ -43,9 +43,9 @@ SimpleImputer(strategy='most_frequent') for categorical columns
 - Addressed class imbalance using RandomOverSampler from the imblearn library, ensuring equal representation of both classes.
 
 ### Exploratory Data Analysis
-![Feature Importance](assets/feature_importances.png)
-![Data Distribution](assets/data_distribution_gender.png)
-![Data Distribution](assets/data_distribution_age.png)
+![Feature Importance](assets/feature_importances.PNG)
+![Data Distribution](assets/data_distribution_gender.PNG)
+![Data Distribution](assets/data_distribution_age.PNG)
 
 ### Modeling Approach
 Algorithms tested: Random Forest Classifier (primary), with potential extensions to Logistic Regression or Gradient Boosted Trees.
